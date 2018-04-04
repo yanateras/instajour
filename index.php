@@ -9,7 +9,7 @@
     <meta content="<?php echo $description ?>" name="description" />
     <link href="favicon.ico" rel="shortcut icon" />
     <link href="style.css" rel="stylesheet" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="vendor/jquery-1.8.2.min.js"></script>
   </head>
   <body>
     <div class="page"><?php generate() ?></div>
