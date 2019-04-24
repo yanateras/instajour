@@ -1,5 +1,0 @@
-* Instajour
-
-  Instajour is a photo journal based on your Instagram photos.
-
-  Inspired by [[http://marboyce.com][Mark Boyce]].
