@@ -40,10 +40,10 @@ function generate() {
   if ($next): ?>
     <script>
       $('body').append('<div class="page"></div>');
-      $('.page:last').load('backend.php?page=<?php echo $next ?>&fetch');
+      $('.page:last').load('backend.php?page=<?= $next ?>&fetch');
     </script>
     <noscript>
-      <a class="pagination" href="?page=<?php echo $next ?>">&nbsp;</a>
+      <a class="pagination" href="?page=<?= $next ?>">&nbsp;</a>
     </noscript>
     <?php
   endif;
