@@ -40,7 +40,7 @@ function generate() {
   if ($next): ?>
     <script>
       $('body').append('<div class="page"></div>');
-      $('.page:last').load('backend.php?page=<?= $next ?>&fetch');
+      $('.page:last').load('instajour.php?page=<?= $next ?>&fetch');
     </script>
     <noscript>
       <a class="pagination" href="?page=<?= $next ?>">&nbsp;</a>

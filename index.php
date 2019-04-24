@@ -1,4 +1,4 @@
-<?php require('backend.php') ?>
+<?php require('instajour.php') ?>
 <!DOCTYPE html>
 <title>Instajour</title>
 <meta charset="utf-8">
