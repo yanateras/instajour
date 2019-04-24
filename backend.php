@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0);
-require 'key.php';
+require 'config.php';
 
 $endpoint = "https://api.instagram.com/v1/users/self/media/recent?count=60&access_token=${token}";
 $page = $_GET['page'];

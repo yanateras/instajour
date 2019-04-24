@@ -1,9 +1,7 @@
 <?php require('backend.php') ?>
 <!DOCTYPE html>
-<title><?= $title ?></title>
+<title>Instajour</title>
 <meta charset="utf-8">
-<meta content="<?= $author ?>" name="author">
-<meta content="<?= $description ?>" name="description">
 <meta content="width=device-width,initial-scale=1" name="viewport">
 <link href="logo.png" rel="apple-touch-icon icon">
 <link href="style.css" rel="stylesheet">
